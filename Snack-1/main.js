@@ -8,13 +8,9 @@ Esegui questo programma in due versioni, con il for e con il while.
 let sum = 0;
 let user_number;
 
-let index = 0
-
-while (index < 5) {
+for (let index = 0; index < 5; index++) {
     user_number = parseInt(prompt("Inserisci un numero"));
     sum = sum + user_number
-
-    index++
 }
 
 console.log(sum);
