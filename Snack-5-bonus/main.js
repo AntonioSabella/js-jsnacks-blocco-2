@@ -12,13 +12,10 @@ let go = true;
 while (go) {
     if (first_array.length < second_array.length) {
         first_array.push('falco');
-        first_array.push('poiana');
-        first_array.push('gufo');
-        first_array.push('lince');
-    } else if (first_array.length == second_array.length) {
+    }   else if (first_array.length == second_array.length) {
         go = false
-    }
+    }  
 }
-
+   
 console.log(first_array);
 console.log(second_array);
