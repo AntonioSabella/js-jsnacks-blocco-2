@@ -9,7 +9,7 @@ let sum = 0;
 let user_number;
 
 for (let index = 0; index < 5; index++) {
-    user_number = parseInt(prompt("Inserisci un numero"));
+    user_number = parseInt(prompt(`Inserisci il numero ${index}`));
     sum = sum + user_number
 }
 
@@ -24,7 +24,7 @@ let userNumber;
 let i = 0
 
 while (i < 5) {
-    userNumber = parseInt(prompt("Inserisci un numero"));
+    userNumber = parseInt(prompt(`Inserisci il numero ${i}`));
     somma = somma + userNumber
 
     i++
