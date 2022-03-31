@@ -4,6 +4,9 @@ e da queste vuole generare una falsa lista di invitati con nome e cognome. */
 let name_list = ['Antonio','Pietro','Giovanni','Marco','Luca','Alfonso','Mario'];
 let surname_list = ['Sabella','Giacobson','Amilcari','Cunegondi','Ametist','Lebano','Iafulli'];
 let false_list = [];
+console.log(name_list);
+console.log(surname_list);
+
 
 for (let i = 0; i < 10; i++) {
     name_random = Math.floor(Math.random() * 7);
@@ -11,6 +14,7 @@ for (let i = 0; i < 10; i++) {
     document.getElementById('falsa_lista').innerHTML += name_list[name_random] + " " + surname_list[surname_random] + " " + ";" + "<br>";
     new_name = name_list[name_random] + " " + surname_list[surname_random] + " " + ";";
     false_list.push([new_name]);
-    console.log(false_list);
 } 
+
+console.log(false_list);
 
